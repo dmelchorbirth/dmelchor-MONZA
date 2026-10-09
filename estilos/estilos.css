@@ -1,0 +1,104 @@
+/* Estilo general de toda la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222222;
+  margin: 0;                   /* quita el margen que trae el navegador */
+}
+
+/* Cabecera: bloque rojo con el título centrado */
+header {
+  background-color: #c8102e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Menú: barra negra con los enlaces en horizontal */
+nav {
+  background-color: #222222;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;       /* permite dar relleno y mantenerlos en la misma línea */
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;       /* quita el subrayado */
+}
+
+nav a:hover {
+  background-color: #c8102e;   /* cambia de color al pasar el ratón */
+}
+
+/* Contenido principal centrado, con ancho máximo */
+main {
+  max-width: 800px;
+  margin: 20px auto;           /* auto a los lados = centrado */
+  padding: 0 16px;
+}
+
+/* Cada bloque de contenido, como una tarjeta */
+section, aside {
+  background-color: white;
+  border: 1px solid #cccccc;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+/* Imágenes: nunca más anchas que su caja, así no se deforman */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 14px;
+  color: #555555;
+}
+
+/* Tabla con bordes */
+table {
+  border-collapse: collapse;   /* junta los bordes de las celdas */
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #999999;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #c8102e;
+  color: white;
+}
+
+/* Formulario alineado */
+form div {
+  margin-bottom: 12px;
+}
+
+label {
+  display: inline-block;
+  width: 150px;                /* mismo ancho = los campos quedan alineados */
+}
+
+button {
+  background-color: #c8102e;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 16px;
+  color: #555555;
+}
